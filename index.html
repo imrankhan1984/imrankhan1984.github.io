@@ -1,399 +1,400 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<title>Imran KHAN&nbsp; - Imran Khan</title><meta property="og:site_name" content="Imran KHAN&nbsp;" />
-<meta property="og:title" content="Imran Khan" />
-<meta property="og:description" content="This is the main page of the Imran Khan website" />
-<meta property="og:image" content="http://www.imrankhan1984.com/uploads/9/7/6/8/9768503/1438763504.png" />
-<meta property="og:url" content="http://www.imrankhan1984.com/" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imran Khan | Data Management and Architecture</title>
+<meta name="description" content="Imran Khan. Digital Innovation & Technology Program Manager at Schneider Electric, Grenoble. Data governance, data and knowledge architecture, knowledge graphs.">
+<meta property="og:title" content="Imran Khan">
+<meta property="og:description" content="Data governance, data and knowledge architecture, knowledge graphs. Schneider Electric, Grenoble, France.">
+<meta property="og:url" content="https://imrankhan1984.github.io/CV/">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F4EF;--surface:#FFFFFF;--ink:#16202C;--body:#2C3643;--muted:#4A5361;--rule:#DDD7CA;--accent:#0E5C61;--accent-dark:#08393C;
+--serif:'Newsreader',Georgia,serif;--sans:'IBM Plex Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}a:hover{color:var(--accent-dark)}
+h1,h2,h3,p,ul,ol{margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-left:40px;padding-right:40px}
+.label{font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.serif{font-family:var(--serif)}
+.muted{color:var(--muted)}
+.split{display:grid;grid-template-columns:240px minmax(0,1fr);gap:64px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;text-decoration:none;font:500 16px var(--sans);cursor:pointer}
+.btn-solid{background:var(--accent);color:#fff;border:0}.btn-solid:hover{background:var(--accent-dark);color:#fff}
+.btn-line{border:1.5px solid var(--ink);color:var(--ink);background:transparent}.btn-line:hover{background:var(--ink);color:#fff}
+.btn svg{flex-shrink:0}
+/* nav */
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--rule)}
+header.top nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px;padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:600;font-size:16px}
+.mono-badge{width:40px;height:40px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font:500 18px var(--serif)}
+.navlinks{display:flex;align-items:center;gap:28px;font-size:15px}
+.navlinks a.plain{color:var(--ink);text-decoration:none}.navlinks a.plain:hover{color:var(--accent)}
+.pdf-small{min-height:40px;padding:0 16px;font-size:14px;background:var(--ink);color:#fff;border:0}.pdf-small:hover{background:var(--accent)}
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr);gap:64px;align-items:center;padding-top:88px;padding-bottom:64px}
+.hero-text{display:flex;flex-direction:column;gap:20px}
+.hero h1{font:500 72px/1.02 var(--serif);letter-spacing:-.02em}
+.hero .role{font-size:21px;font-weight:500}
+.hero .tagline{max-width:600px;font:400 26px/1.4 var(--serif);color:var(--body)}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.photo{width:300px;height:300px;border-radius:50%;object-fit:cover;display:block;background:#E3E8EE}
+.print-contact{display:none}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1.5px solid var(--ink);border-bottom:1px solid var(--rule)}
+.stat{padding:28px 24px;display:flex;flex-direction:column;gap:8px}
+.stat+.stat{border-left:1px solid var(--rule)}
+.stat:first-child{padding-left:0}.stat:last-child{padding-right:0}
+.stat .num{font:400 27px/1.15 var(--serif);color:var(--accent);white-space:nowrap}
+.stat .cap{font-size:15px;line-height:1.5;color:var(--muted)}
+section{padding-top:88px;padding-bottom:88px}
+.sec-mid{padding-top:72px;padding-bottom:72px}.sec-small{padding-top:40px;padding-bottom:40px}
+.band{background:var(--surface);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.ruled{border-top:1px solid var(--rule)}
+.lead{font:400 24px/1.45 var(--serif)}
+.prose{display:flex;flex-direction:column;gap:18px;max-width:720px}
+.prose p:not(.lead){color:var(--body)}
+/* experience */
+.roles{display:flex;flex-direction:column;gap:16px}
+.role-card{border-radius:16px;border:1px solid var(--rule);background:var(--surface)}
+.role-card.current{background:var(--bg);padding:32px;display:flex;flex-direction:column;gap:16px}
+.role-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px}
+.role-card h3{font:500 23px/1.25 var(--serif)}
+.role-card.current h3{font-size:28px}
+.date{flex-shrink:0;font:400 12px var(--mono);color:var(--muted)}
+.pill{padding:4px 12px;border-radius:999px;background:var(--accent);color:#fff}
+.role-card ul{padding-left:20px;display:flex;flex-direction:column;gap:8px;color:var(--body)}
+.team{font-size:15px;color:var(--muted)}
+details.role-card>summary{list-style:none;cursor:pointer;padding:24px 32px;display:flex;align-items:center;gap:24px;min-height:44px}
+details.role-card>summary::-webkit-details-marker{display:none}
+details.role-card>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:16px}
+.sum-text{flex-grow:1;display:flex;flex-direction:column;gap:6px}
+.sum-line{font-size:15px;color:var(--muted)}
+.chev{flex-shrink:0;transition:transform .2s}
+details[open] .chev{transform:rotate(180deg)}
+details[open] .sum-line{display:none}
+.role-body{padding:0 32px 28px;display:flex;flex-direction:column;gap:12px}
+/* expertise */
+.skills-head{align-items:end}
+.skills-head p{font:400 30px/1.3 var(--serif);max-width:720px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px}
+.card{padding:28px;border-radius:16px;background:var(--surface);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px}
+.card h3{font-size:18px;font-weight:600;line-height:1.3}
+.card p{font-size:15px;line-height:1.55;color:var(--muted)}
+.tools{margin-top:24px;font:400 13px var(--mono);color:var(--muted)}
+/* patents */
+.patents{list-style:none;padding:0;border-top:1px solid var(--rule)}
+.patents li{padding:18px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:24px;align-items:baseline}
+.patents a{font-weight:500}
+.patents .no{font:400 13px var(--mono);color:var(--muted);text-align:right}
+.big{font:400 30px/1.3 var(--serif)}
+.edu{display:grid;grid-template-columns:240px minmax(0,1fr) minmax(0,1fr);gap:64px}
+.stack8{display:flex;flex-direction:column;gap:8px}
+footer{background:var(--ink);color:var(--bg)}
+footer .wrap{padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:40px}
+.foot-row{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap}
+footer .big-foot{font:400 44px/1.1 var(--serif)}
+footer .btn-light{background:var(--bg);color:var(--ink)}
+footer .btn-ghost{border:1.5px solid var(--bg);color:var(--bg)}
+footer .btn-ghost:hover{background:var(--bg);color:var(--ink)}
+footer .copy{padding-top:24px;border-top:1px solid #34404F;font-size:13px;color:#A9B2BD}
+/* responsive */
+@media screen and (max-width:900px){
+ .wrap{padding-left:24px;padding-right:24px}
+ .navlinks a.plain{display:none}
+ .hero{grid-template-columns:1fr;gap:32px;padding-top:48px}
+ .hero .photo-box{order:-1}.photo{width:160px;height:160px}
+ .hero h1{font-size:48px}.hero .tagline{font-size:22px}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stat{padding:20px 16px!important;border-left:0!important}
+ .stat .num{font-size:23px;white-space:normal}
+ .stat:nth-child(even){border-left:1px solid var(--rule)!important}
+ .stat:nth-child(n+3){border-top:1px solid var(--rule)}
+ section{padding-top:56px;padding-bottom:56px}
+ .split,.edu{grid-template-columns:1fr;gap:20px}
+ .cards{grid-template-columns:1fr}
+ .role-card.current{padding:24px}
+ details.role-card>summary{padding:20px 24px}.role-body{padding:0 24px 24px}
+ .role-head{flex-direction:column;gap:4px}
+ .patents li{grid-template-columns:1fr;gap:4px}.patents .no{text-align:left}
+ footer .big-foot{font-size:34px}
+}
+/* print: a clean 2-page CV */
+@page{size:A4;margin:12mm 13mm}
+@media print{
+ html,body{background:#fff;font-size:9.4pt;line-height:1.4}
+ header.top,.no-print,.chev,.sum-line,footer .foot-row .btn,.tools-sep{display:none!important}
+ .wrap{max-width:none;padding:0}
+ section,.sec-mid,.sec-small{padding:0!important;margin-top:10pt;break-inside:auto}
+ h2.label{break-after:avoid}
+ .band,.ruled{background:none;border:0}
+ .hero{padding:0;grid-template-columns:minmax(0,1fr);gap:0}
+ .hero h1{font-size:26pt}.hero .role{font-size:12pt}.hero .tagline{font-size:12.5pt}
+ .hero-text{gap:5pt}
+ .photo{width:30mm;height:30mm}
+ .print-contact{display:block;font:400 9pt var(--mono);color:var(--muted)}
+ .print-contact a{color:var(--ink);text-decoration:none}
+ .stats{margin-top:12pt}
+ .stat{padding:8pt 8pt!important;gap:2pt}
+ .stat .num{font-size:13pt;white-space:nowrap}.stat .cap{font-size:8pt;line-height:1.35}
+ .split{grid-template-columns:32mm minmax(0,1fr);gap:6mm}
+ .label{font-size:8pt}
+ .lead{font-size:11pt}.prose{gap:5pt;max-width:none}
+ .roles{gap:8pt}
+ .role-card,.role-card.current{border:0;border-top:1px solid var(--rule);border-radius:0;background:none;padding:6pt 0 0!important;gap:4pt}
+ details.role-card>summary{padding:0 0 4pt;min-height:0}
+ .role-card h3,.role-card.current h3{font-size:12pt}
+ .role-body{padding:0;gap:4pt}
+ .role-card ul{gap:1pt}
+ .date{font-size:8pt}.pill{background:none;color:var(--muted);padding:0}
+ .team{font-size:9pt}
+ details.role-card{break-inside:avoid}
+ .role-card li{break-inside:avoid}
+ .skills-head p{font-size:12pt}
+ .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:5pt 7mm;margin-top:6pt}
+ .card{padding:0;border:0;border-radius:0;background:none;gap:1pt;break-inside:avoid}
+ .card svg{display:none}
+ .card h3{font-size:9pt}.card p{font-size:8pt;line-height:1.35}
+ .tools{margin-top:6pt;font-size:8pt}
+ .big{font-size:12pt}
+ .patents li{padding:3pt 0;grid-template-columns:minmax(0,1fr) 48mm;gap:4mm}
+ #patents .stack8{break-inside:avoid}
+ .patents a{color:var(--ink);text-decoration:none}
+ .patents .no{font-size:8pt}
+ .edu{grid-template-columns:32mm minmax(0,1fr) minmax(0,1fr);gap:6mm}
+ footer{display:none!important}
+ footer .wrap{padding:10pt 0 0;gap:0}
+ footer .big-foot,footer .foot-sub{display:none}
+ footer .copy{border-top:1px solid var(--rule);padding-top:6pt;color:var(--muted);font-size:8pt}
+ a[href^="http"]:not(.nolink)::after{content:""}
+}
+</style>
+</head>
+<body>
 
-<meta name="description" content="This is the main page of the Imran Khan website" />
-<meta name="keywords" content="Imran, Khan, Imrankhan, Vanet, Telecom, sudparis, Evry, Internet of things, IoT, web of things, WoT, WoO, Web of Objects, Kashmir, Rawalakot, MAJU, m a jinnah university, comsats, CIIT, VANET, vehicular ad hoc networks, adhoc, concordia, Virtualization, w" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  
-		
-		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1632781467" />
-<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1632781467" />
-<link rel="stylesheet" type="text/css" href="/files/main_style.css?1633005464" title="wsite-theme-css" />
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<header class="top no-print">
+<nav class="wrap" aria-label="Main">
+<a class="brand" href="#top"><span class="mono-badge">IK</span>Imran Khan</a>
+<div class="navlinks">
+<a class="plain" href="#experience">Experience</a>
+<a class="plain" href="#expertise">Expertise</a>
+<a class="plain" href="#patents">Patents</a>
+<button type="button" class="btn pdf-small" onclick="printCV()">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+Download PDF</button>
+</div>
+</nav>
+</header>
 
-<link href='//fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<style type='text/css'>
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {text-transform:  none !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#2a2a2a !important;}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Playfair Display" !important;font-weight:700 !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {color:#3f3f3f !important;}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {color:#2a2a2a !important;text-transform:  none !important;}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#8d2424 !important;}
-@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:18px !important;line-height:10px !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-}</style>
+<main id="top">
 
-		<script>
-var STATIC_BASE = '//cdn1.editmysite.com/';
-var ASSETS_BASE = '//cdn2.editmysite.com/';
-var STYLE_PREFIX = 'wsite';
-</script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<div class="wrap hero">
+<div class="hero-text">
+<p class="label">Grenoble, France</p>
+<h1>Imran Khan</h1>
+<p class="role">Digital Innovation &amp; Technology Program Manager <span class="muted" style="font-weight:400">at Schneider Electric</span></p>
+<p class="tagline">I make enterprise data trusted and easy to use, and I connect data architecture to business decisions.</p>
+<p class="print-contact"><a href="mailto:imran [at] ieee [dot] org">imran [at] ieee [dot] org</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/imrankhan1984/">linkedin.com/in/imrankhan1984</a></p>
+<div class="actions no-print">
+<a class="btn btn-solid" href="mailto:imran [at] ieee [dot] org"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>imran [at] ieee [dot] org</a>
+<a class="btn btn-line" href="https://www.linkedin.com/in/imrankhan1984/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn</a>
+<button type="button" class="btn btn-line" onclick="printCV()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download PDF</button>
+</div>
+</div>
+</div>
 
-<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1632781467&"></script>
-<script src="//cdn2.editmysite.com/js/site/main.js?buildTime=1632781467"></script><script type="text/javascript">
-		function initCustomerAccountsModels() {
-					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
-_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
-})();
-		}
-		if(document.createEvent && document.addEventListener) {
-			var initEvt = document.createEvent('Event');
-			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
-			document.dispatchEvent(initEvt);
-		} else if(document.documentElement.initCustomerAccountsModels === 0){
-			document.documentElement.initCustomerAccountsModels++
-		}
-		</script>
-		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='www.imrankhan1984.com'; </script><script>_W = _W || {};
-			_W.customerLocale = "en_US";
-			_W.storeName = null;
-			_W.isCheckoutReskin = false;
-			_W.storeCountry = "FR";
-			_W.storeCurrency = "USD";
-			_W.storeEuPrivacyPolicyUrl = "";
-			com_currentSite = "278495685788551686";
-			com_userID = "9768503";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1632781467&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script>
-		
-		
-	</head>
-	<body class="no-header-page  wsite-theme-light  wsite-page-index"><div id="total-wrapper">
-    <div id="nav-wrap">
-		<div class="nav-container"><ul class="wsite-menu-default">
+<div class="wrap">
+<div class="stats" role="list" aria-label="Impact at a glance">
+<div class="stat" role="listitem"><p class="num">6 months → 4 hours</p><p class="cap">Product data processing time after the knowledge graph platform I designed</p></div>
+<div class="stat" role="listitem"><p class="num">18 years</p><p class="cap">In data, IoT and cloud architecture, 11 at Schneider Electric</p></div>
+<div class="stat" role="listitem"><p class="num">7 patents</p><p class="cap">3 granted in the US, 4 pending</p></div>
+<div class="stat" role="listitem"><p class="num">Senior Member</p><p class="cap">IEEE (Institute of Electrical and Electronics Engineers), since 2021</p></div>
+</div>
+</div>
+
+<section aria-labelledby="profile-h">
+<div class="wrap split">
+<h2 id="profile-h" class="label">Profile</h2>
+<div class="prose">
+<p class="lead">I work where data architecture meets business strategy. For 18 years, 11 of them at Schneider Electric, I have designed how data is modeled, governed and delivered, and I have helped leaders agree on what that data should do for the business.</p>
+<p>Today I help Schneider's IT and IoT (Internet of Things) data domains raise their data quality and meet the company's data rules. I also lead the case for knowledge graphs across the enterprise, work that is presented to the Executive Committee.</p>
+<p>Before that, I designed the data model behind a new electrical product data platform. It cut data processing time from six months to four hours. I have professional experience of working in France and Canada and have led technical teams across the USA, Europe and India. I am at my best in ambiguous situations where technology, people and strategy have to line up, and I explain technical choices in plain terms so decision-makers can act on them.</p>
+</div>
+</div>
+</section>
+
+<section id="experience" class="band" aria-labelledby="exp-h">
+<div class="wrap split">
+<div class="stack8" style="gap:12px">
+<h2 id="exp-h" class="label">Experience</h2>
+<p class="team">Schneider Electric, Grenoble, France. Last four roles, newest first.</p>
+<a class="no-print" href="https://www.linkedin.com/in/imrankhan1984/" style="font-size:15px">Full career history on LinkedIn</a>
+</div>
+<div class="roles">
+
+<article class="role-card current">
+<div class="role-head"><h3>Digital Innovation &amp; Technology Program Manager</h3><span class="date pill">Jan 2025 to present</span></div>
+<p class="team">Data &amp; Performance team, Group Governance</p>
+<ul>
+<li>Help the IT and IoT data domains raise their data maturity and meet the company's golden data rules.</li>
+<li>IT domain result: better tracking of assets and their financial cost, and data that internal processes can use directly.</li>
+<li>IoT domain result: data from digital offers that is traceable and meets the regulations Schneider must follow.</li>
+<li>Lead the enterprise strategy for formal semantics and knowledge graphs, presented to the Executive Committee.</li>
+<li>Use AI to run golden data rule compliance checks on critical IT systems.</li>
+<li>Help set up the global business data catalog so teams across the company can find, trust and reuse data.</li>
+<li>Work with senior leaders, enterprise architects, offer development teams and data domain owners to tie data work to business outcomes.</li>
+</ul>
+</article>
+
+<details class="role-card">
+<summary>
+<div class="sum-text">
+<div class="role-head"><h3>Technical Data Domain Expert and Architect</h3><span class="date">Mar 2024 to Dec 2024</span></div>
+<p class="sum-line">Led the semantic data model that lets several electrical design tools share project data.</p>
+</div>
+<svg class="chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="role-body">
+<p class="team">Interoperability platform for electrical design software</p>
+<ul>
+<li>Led the move from a legacy data model to a semantic model (an ontology) so that several electrical design tools can exchange project data.</li>
+<li>Worked with electrical domain experts to capture what each project must contain, and set the data quality practices.</li>
+<li>Defined, with engineering, the services and APIs (Application Programming Interfaces) that keep project data consistent when many people edit it with different tools.</li>
 </ul>
 </div>
-	</div>
-	
-	<div id="header-wrap">
-	  <div class="container">
-		<div id="logo"><span class="wsite-logo">
+</details>
 
-	<a href="/">
-		<img src="/uploads/9/7/6/8/9768503/1438763504.png" style="margin-top:13px;margin-left:2px;" alt="Imran KHAN&amp;nbsp;" />
-	</a>
-
-</span></div>		
-		<div class="logo-spacer"></div>
-		<div class="phone-number"><span class="wsite-text wsite-phone">
-	IMRAN KHAN<br /><br />Senior Principal Architect at Schneider Electric, Grenoble, France<br /><br /><br /><span style="font-weight:normal">​PhD in&nbsp;Computer Science &amp; Networks from Telecom SudParis &amp; UPMC (Paris VI), Senior Member IEEE</span><br /><br /><em><span style="font-weight:normal">Creating End-to-End System Architectures for Data and Information Management<br />​</span></em><span style="font-weight:normal"><span><em><span><span>&nbsp;</span></span></em></span></span>
-</span></div>
-		<div class="social"><div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
-<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-linkedin' href='//www.linkedin.com/in/imrankhan1984' target='_blank' alt='Linkedin' aria-label='Linkedin'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-twitter' href='//twitter.com/imrankhan1984' target='_blank' alt='Twitter' aria-label='Twitter'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-plus' href='https://plus.google.com/116019837458952862067' target='_blank' alt='Plus' aria-label='Plus'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:0px;overflow:hidden"></div></div></div>
-		<div class="search"></div>
-	  </div><!-- end container -->
-	</div><!-- end nav-wrap -->
-
-	<div id="main-wrap">
-	  <div class="container">
-		<div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><strong>Select Publications (Full List on&nbsp;<a href="http://bit.ly/Nff9p3" target="_blank">Google Scholar</a>)</strong></h2>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><strong style="">Projects &amp; Collaborations</strong></h2>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="paragraph" style="text-align:left;"><ul><li><a href="/uploads/9/7/6/8/9768503/cired_2021_-_full_paper_-_digital_twins_and_ontology_v2.31.pdf" target="_blank">How to overcome difficulties met in deploying digital twins of electrical assets over their whole life cycle? A data management perspective</a> (<span style="color:rgb(34, 34, 34)"><strong>CIRED 2021</strong> -&nbsp;Intl. Conference &amp; Exhibition on Electricity Distribution</span>)</li><li><span style="color:rgb(34, 34, 34)">Data Anonymization for Maintenance Knowledge Sharing (Forthcoming in IEEE ITPro Magazine - <strong>2020 IF 3.7</strong>)</span></li><li><span style="color:rgb(34, 34, 34)"><a href="https://www.mdpi.com/2076-3417/10/18/6325" target="_blank">SemKoRe: Improving Machine Maintenance in Industrial IoT with Semantic Knowledge Graphs </a>(</span>Appl. Sci. 2020<span style="color:rgb(34, 34, 34)">&nbsp;- <strong>2019 IF&nbsp;2.474</strong>)</span>&#8203;</li><li><a href="/uploads/9/7/6/8/9768503/sre-_semantic_rules_engine_for_the_industrial_internet-of-things_gateways.pdf" target="_blank">SRE: Semantic Rules Engine For the Industrial Internet-Of-Things Gateways</a> (IEEE Trans.&nbsp;on Industrial Informatics - <strong><span>2016 IF&nbsp;6.764</span></strong>)&nbsp;</li><li><a href="/uploads/9/7/6/8/9768503/bigdataanalyticsiniot.pdf" target="_blank">The role of big data analytics in Internet of Things</a> (Elsevier Computer Networks - <strong><span>2016 IF&nbsp;2.516</span></strong>)</li><li><a href="http://imrankhan1984.weebly.com/uploads/9/7/6/8/9768503/comst-khan-2412971-proof.pdf" target="_blank">Wireless Sensor Network Virtualization: A Survey</a>&nbsp;(IEEE Comm. Survey &amp; Tutorial - <strong><span>2016 IF&nbsp;17.188</span></strong>)</li><li><a href="http://www.imrankhan1984.com/uploads/9/7/6/8/9768503/ieee-network-published-may-june-2015.pdf" target="_blank">Wireless Sensor Network Virtualization: Early Architecture and Research Perspectives</a>&nbsp;(IEEE Network - <strong><span>2016 IF&nbsp;7.230</span></strong>)</li></ul></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="paragraph" style="text-align:left;"><ul><li><a href="http://users.encs.concordia.ca/~tse/projects/iot/index.php" target="_blank">IoT Applications Provisioning</a>&nbsp;at&nbsp;<a href="https://www.concordia.ca/" target="_blank">Concordia University</a>, Montreal, Canada. Sponsored by&nbsp;<a href="http://www.cisco.com/" target="_blank">CISCO</a>.</li><li><a href="http://www.web-of-objects.com/" target="_blank">Web-of-Objects</a>&nbsp;at&nbsp;<a href="http://www.telecom-sudparis.eu/en_accueil.html" target="_blank">Telecom SudParis</a>, Evry, France. Sponsored by European&nbsp;<a href="https://en.wikipedia.org/wiki/Information_Technology_for_European_Advancement_(ITEA2)" target="_blank">ITEA-2</a>.</li></ul><ul><li><a href="http://corenet.org.pk/eduscope/" target="_blank">"EduScope", A New Learning System</a>&nbsp;at&nbsp;<a href="http://jinnah.edu.pk/" target="_blank">M.A. Jinnah University</a>, Islamabad, Pakistan. Sponsored by&nbsp;<a href="http://www.internetsociety.org/" target="_blank">ISOC</a>.</li><li>Research Collaboration with <a href="http://laborange.fr/" target="_blank">Orange Labs</a> -&nbsp;France,&nbsp;<a href="http://carleton.ca/" target="_blank">Carleton University</a>&nbsp;- Canada,&nbsp;<a href="https://www.concordia.ca/" target="_blank">Concordia University</a><span>&nbsp;- Canada,&nbsp;</span><a href="http://www.telecom-sudparis.eu/en_accueil.html" target="_blank">Telecom SudParis</a><span>&nbsp;- France,&nbsp;</span><a href="http://jinnah.edu.pk/" target="_blank">M.A. Jinnah University</a><span>&nbsp;- Pakistan,&nbsp;</span><a href="http://www.khu.ac.kr/eng/" target="_blank">Kyung Hee University</a><span>&nbsp;- Korea and&nbsp;</span><a href="http://www.um.edu.my/" target="_blank">University of Malaya</a> -&nbsp;Malaysia.<span></span></li></ul></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
-
-<h2 class="wsite-content-title" style="text-align:center;">Contact</h2>
-
-<div style="text-align:center;"><div style="height:20px;overflow:hidden"></div>
-<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-linkedin' href='//www.linkedin.com/in/imrankhan1984' target='_blank' alt='Linkedin' aria-label='Linkedin'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-twitter' href='//twitter.com/imrankhan1984' target='_blank' alt='Twitter' aria-label='Twitter'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-plus' href='https://plus.google.com/116019837458952862067' target='_blank' alt='Plus' aria-label='Plus'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:20px;overflow:hidden"></div></div>
+<details class="role-card">
+<summary>
+<div class="sum-text">
+<div class="role-head"><h3>Data Domain Expert</h3><span class="date">May 2022 to Mar 2024</span></div>
+<p class="sum-line">Designed the product data platform model that cut processing time from six months to four hours.</p>
 </div>
+<svg class="chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="role-body">
+<p class="team">Energy Management Software Transformation</p>
+<ul>
+<li>Designed the semantic model (using the W3C standards SKOS, RDF and OWL) for a next-generation product information platform used by electrical design software.</li>
+<li>Result: electrical product data processing time dropped from six months to four hours.</li>
+<li>Owned the technical architecture for storing and processing the data.</li>
+<li>Managed budget, hiring and a team split between India and France.</li>
+<li>Advised on the group data strategy, including AVEVA.</li>
+</ul>
+</div>
+</details>
 
-	  </div><!-- end container -->
-	</div><!-- end main-wrap -->
-	</div><!-- end total wrapper -->
+<details class="role-card">
+<summary>
+<div class="sum-text">
+<div class="role-head"><h3>Senior Solutions Architect</h3><span class="date">Dec 2021 to May 2022</span></div>
+<p class="sum-line">Led the Knowledge Graph Program and a team of five for two business units.</p>
+</div>
+<svg class="chev" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="role-body">
+<p class="team">Schneider Digital</p>
+<ul>
+<li>Led the Knowledge Graph Program and a team of five, delivering solutions for the Industrial Automation and Energy Management business units.</li>
+<li>Use cases in oil and gas, process automation, industrial IoT and machine solutions.</li>
+<li>Built an internal community that taught teams what knowledge graphs can do and fed new use cases into delivery.</li>
+</ul>
+</div>
+</details>
 
-	<div id="footer-wrap">
-	  <div class="container">
-		
+</div>
+</div>
+</section>
 
-<style type="text/css">
-	@font-face {
-		font-family: SQMarket-Medium;
-		font-style: normal;
-		font-weight: 500;
-		src:
-			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff2") format("woff2"),
-			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff") format("woff");
-	}
-</style>
+<section id="expertise" aria-labelledby="skills-h">
+<div class="wrap">
+<div class="split skills-head">
+<h2 id="skills-h" class="label">Expertise</h2>
+<p>From data rules to software products, and the people who need to agree on both.</p>
+</div>
+<div class="cards">
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><h3>Data Governance and Management</h3><p>Data standards, data quality, golden data rules, business data catalogs, data domain operating models.</p></div>
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="2.2"/><circle cx="19" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><circle cx="12" cy="10" r="1.6"/><path d="M7 7l3.7 2.2M17 7l-3.7 2.2M12 11.6v4.2"/></svg><h3>Data and Knowledge Architecture</h3><p>End-to-end dataflow design, semantic data models, ontologies, knowledge graphs (RDF, SKOS, OWL), interoperability between systems.</p></div>
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 10l-2.5 2.5L9 15M15 10l2.5 2.5L15 15M13 9l-2 7"/></svg><h3>Software Product Design and Development</h3><p>Led technical teams that designed, built and shipped software products, from requirements to release. Owned technical design and architecture; hands-on in Java, C and Python, and in cloud services on Microsoft Azure.</p></div>
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 10h4v4h-4z"/></svg><h3>AI and Large Language Models (LLMs)</h3><p>Preparing enterprise data so AI can use it: quality, meaning and governance, with knowledge graphs as a trusted source of facts for LLMs. Daily, hands-on use of LLM assistants and AI agents for analysis, drafting and task automation. Example: using AI to run golden data rule compliance checks on critical IT systems.</p></div>
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4.5a3 3 0 0 1 0 6M18 14.3c1.8.8 3 2.6 3 4.7"/></svg><h3>Leadership and Strategy</h3><p>Executive stakeholder alignment, change management, program and project management, budget and hiring, teams spread across the USA, Europe and India.</p></div>
+<div class="card"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0E5C61" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg><h3>Domain Knowledge</h3><p>Energy management and industrial automation: buildings, data centers, process automation, low-voltage electrical products and electrical network design.</p></div>
+</div>
+<p class="tools">Tools and methods: Git · Jira · Azure DevOps · Agile and SAFe (Scaled Agile Framework)</p>
+</div>
+</section>
 
-<script type="text/javascript" src="//cdn2.editmysite.com/js/site/footerSignup.js?buildTime=1665865208"></script>
-<script type="text/javascript">
-	if (document.readystate === 'complete') {
-		Weebly.footer.setupContainer('cdn2.editmysite.com', '1665865208');
-	} else {
-		document.addEventListener('DOMContentLoaded', function() {
-			Weebly.footer.setupContainer('cdn2.editmysite.com', '1665865208');
-		});
-	}
-</script>
+<section id="patents" class="ruled" aria-labelledby="pat-h">
+<div class="wrap split">
+<h2 id="pat-h" class="label">Patents</h2>
+<div class="stack8" style="gap:20px">
+<p class="big">7 patents: 3 granted, 4 pending</p>
+<ol class="patents">
+<li><a href="https://patents.google.com/patent/US12111861B2/en">Dynamic ontology data operation</a><span class="no">US 12,111,861 B2 · 2024</span></li>
+<li><a href="https://patents.google.com/patent/US11972357B2/en">Application programming interface enablement of consistent ontology model instantiation</a><span class="no">US 11,972,357 B2 · 2024</span></li>
+<li><a href="https://patents.google.com/patent/US11526510B2/en">Semantic search method for a distributed data system with numerical time series data</a><span class="no">US 11,526,510 B2 · 2022</span></li>
+</ol>
+<p class="team">Pending: 4 applications, including Plant infrastructure modelling (US 2023/0401347 A1, published Dec 2023).</p>
+</div>
+</div>
+</section>
 
-<script type='text/javascript'>
-//<!--
+<section class="ruled sec-mid" aria-label="Education and languages">
+<div class="wrap edu">
+<h2 class="label">Education</h2>
+<div class="stack8">
+<p style="font-weight:600">PhD in Computer Science and Networks</p>
+<p style="color:var(--body)">Télécom SudParis and Université Pierre et Marie Curie (Paris VI), 2012 to 2015</p>
+<p class="team">Thesis: cloud-based, cost-efficient application and service provisioning in virtualized wireless sensor networks.</p>
+</div>
+<div class="stack8">
+<h2 class="label" style="margin-bottom:4px">Languages</h2>
+<p><strong>English</strong> <span class="muted">· full professional</span></p>
+<p><strong>French</strong> <span class="muted">· working proficiency</span></p>
+<p><strong>Urdu</strong> <span class="muted">· native</span></p>
+</div>
+</div>
+</section>
 
-if (document.cookie.match(/(^|;)\s*is_mobile=1/)) {
-	var windowHref = window.location.href || '';
-	if (windowHref.indexOf('?') > -1) {
-		windowHref += '&';
-	} else {
-		windowHref += '?';
-	}
-	windowHref = windowHref.replace(/'/g, "%27");
-	document.write(
-		"&nbsp;&nbsp;&nbsp;&nbsp;" +
-		"<a class='wsite-view-link-mobile' href='" + windowHref + "view=mobile'>Mobile Site</a>"
-	);
-}
+<section class="ruled sec-small" aria-label="Research background">
+<div class="wrap split">
+<h2 class="label" style="color:var(--muted)">Research</h2>
+<p class="team" style="max-width:720px">Even after joining industry, I continued my research in IoT, cloud computing and semantic data. My papers have been cited more than 2,900 times. <a href="https://scholar.google.fr/citations?user=7CYxiPwAAAAJ&amp;hl=en">See publications on Google Scholar</a></p>
+</div>
+</section>
 
-//-->
-</script>
-	  </div><!-- end container -->
-	</div><!-- end footer-wrap -->
-    <div id="customer-accounts-app"></div>
-    <script src="//cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1632781467"></script>
+</main>
 
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-27186328-1', 'auto');
-  ga('send', 'pageview');
-
-</script><script type="text/javascript">
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-7870337-1']);
-	_gaq.push(['_setDomainName', 'none']);
-	_gaq.push(['_setAllowLinker', true]);
-
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		// NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page
-		var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s);
-	})();
-
-	_W.Analytics = _W.Analytics || {'trackers': {}};
-	_W.Analytics.trackers.wGA = '_gaq';
-</script>
-
-<script type="text/javascript" async=1>
-	// NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page
-	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[1];n.async=1;
-			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
-
-	var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
-	var snPlObR = function(arr) {
-		var s = '';
-		for (var i = 0 ; i < arr.length ; i++){
-			s = s + String.fromCharCode(arr[i]);
-		}
-		return s;
-	};
-	var s = snPlObR(r);
-
-	var regEx = new RegExp(s);
-
-	_W.Analytics = _W.Analytics || {'trackers': {}};
-	_W.Analytics.trackers.wSP = 'snowday';
-	_W.Analytics.user_id = '9768503';
-	_W.Analytics.site_id = '278495685788551686';
-
-	var drSegmentsTag = document.getElementById('drSegments');
-	if (drSegmentsTag) {
-		_W.Analytics.spContexts = _W.Analytics.spContexts || [];
-
-		var segmentData = JSON.parse(drSegmentsTag.innerText);
-		segmentData.forEach(function(test) {
-			_W.Analytics.spContexts.push({
-				schema: "iglu:com.weebly/context_ab_segment/jsonschema/1-0-0",
-				data: {
-					test_id: test.name,
-					segment: test.variant,
-				}
-			});
-		});
-	}
-
-
-	(function(app_id, ec_hostname, discover_root_domain) {
-		var track = window[_W.Analytics.trackers.wSP];
-		if (!track) return;
-		track('newTracker', app_id, ec_hostname, {
-			appId: app_id,
-			post: true,
-			platform: 'web',
-			discoverRootDomain: discover_root_domain,
-			cookieName: '_snow_',
-			contexts: {
-				webPage: true,
-				performanceTiming: true,
-				gaCookies: true
-			},
-			crossDomainLinker: function (linkElement) {
-				return regEx.test(linkElement.href);
-			},
-			respectDoNotTrack: true
-		});
-		track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id, _W.Analytics.spContexts);
-		track('crossDomainLinker', function (linkElement) {
-			return regEx.test(linkElement.href);
-		});
-	})(
-		'_wn',
-		'ec.editmysite.com',
-		true
-	);
-</script>
-
-
-
-
+<footer>
+<div class="wrap">
+<div class="foot-row">
+<div class="stack8" style="gap:12px">
+<p class="big-foot">Get in touch</p>
+<p class="foot-sub" style="color:#C9CFD6">Grenoble, France</p>
+</div>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<a class="btn btn-light" href="mailto:imran@ieee.org">imran@ieee.org</a>
+<a class="btn btn-ghost" href="https://www.linkedin.com/in/imrankhan1984/">LinkedIn</a>
+</div>
+</div>
+<p class="copy">© 2026 Imran Khan</p>
+</div>
+</footer>
 
 <script>
-	(function(jQuery) {
-		try {
-			if (jQuery) {
-				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
-				var $commentFrame = jQuery('#commentArea iframe');
-				if ($commentFrame.length > 0) {
-					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
-					$commentFrame.css('min-height', frameHeight + 'px');
-				}
-				if (jQuery('.product-button').length > 0){
-					jQuery(document).ready(function(){
-						jQuery('.product-button').parent().each(function(index, product){
-							if(jQuery(product).attr('target') == 'paypal'){
-								if (!jQuery(product).find('> [name="bn"]').length){
-									jQuery('<input>').attr({
-										type: 'hidden',
-										name: 'bn',
-										value: 'DragAndDropBuil_SP_EC'
-									}).appendTo(product);
-								}
-							}
-						});
-					});
-				}
-			}
-			else {
-				// Prototype
-				$$('div.blog-social div.fb-like').each(function(div) {
-					div.className = 'blog-social-item blog-fb-like';
-				});
-				$$('#commentArea iframe').each(function(iframe) {
-					iframe.style.minHeight = '410px';
-				});
-			}
-		}
-		catch(ex) {}
-	})(window._W && _W.jQuery);
+// Open every collapsed role before printing, then restore
+var closedBefore=[];
+function openAll(){closedBefore=[];document.querySelectorAll('details.role-card').forEach(function(d){if(!d.open){closedBefore.push(d);d.open=true;}});}
+function restore(){closedBefore.forEach(function(d){d.open=false;});closedBefore=[];}
+window.addEventListener('beforeprint',openAll);
+window.addEventListener('afterprint',restore);
+function printCV(){openAll();window.print();}
 </script>
-
-<script>
-	window._W.isEUUser = true;
-	window._W.showCookieToAll = "";
-</script>
-
-
-	</body>
+</body>
 </html>
